@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diploma Study Material</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298); 
+            color: #f0f0f0; 
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: #e0e0e0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0d1b2a; 
+            padding: 15px;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            padding: 12px 25px;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #4e73df; 
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .department-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
+            padding: 30px 20px;
+        }
+
+        .department {
+            background-color: rgba(255, 255, 255, 0.1); 
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .department:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        }
+
+        .department h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        .department p {
+            font-size: 1.1rem;
+            color: #dcdcdc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0d1b2a; 
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            color: #f0f0f0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TechSphere</h1>
+        <p>Tech smart,No stress</p>
+    </header>
+	<nav>
+    <a href="#">index</a>
+    <a href="WPD%20project/content%20type%202.html">Department</a>
+    <a href="#">Contact</a>
+</nav>
+
+    <nav>
+        <a href="mech%20subcontent.html">Mechanical Engineering</a>
+        <a href="mech%20subcontent.html">Civil Engineering</a>
+        <a href="comp%20subcontent.html">Computer Science</a>
+       
+        <a href="Auto%202%20subcontent.html">Automobile Engineering</a>
+        <a href="Ai%20subcontent.html">Artificial Intelligence</a>
+    </nav>
+
+    <div class="content">
+        <h2>Diploma Branches</h2>
+        <div class="department-list">
+            <div class="department" id="mechanical">
+                <h2>Mechanical Engineering</h2>
+                <p>Study materials and resources related to Mechanical Engineering, including topics like thermodynamics, mechanics, and material science.</p>
+				<a href="mech%20subcontent.html">click here</a>
+            </div>
+            <div class="department" id="civil">
+                <h2>Civil Engineering</h2>
+                <p>Resources for Civil Engineering, covering subjects such as structural analysis, construction, materials science, and surveying.</p>
+				 <a href="file:///C:/Users/Hp/Desktop/anjaliFYcob/mech%20subcontent.html">Click here</a>
+            </div>
+            <div class="department" id="cs">
+                <h2>Computer Science</h2>
+                <p>Find study materials on programming, data structures, algorithms, computer networks, and software development for Computer Science students.</p>
+				<a href="fcomp%20subcontent.html">Click here</a>
+            </div>
+            
+            <div class="department" id="Automobile Engineering">
+                <h2>Automobile Engineering</h2>
+                <p>Study materials on automobiles, semiconductors, digital electronics, and microprocessors, essential for automobiles students.</p>
+				<a href="Auto%202%20subcontent.html">Click here</a>
+            </div>
+            <div class="department" id="ai">
+                <h2>Artificial Intelligence</h2>
+                <p>Get access to materials on machine learning, neural networks, natural language processing, and deep learning for Artificial Intelligence students.</p>
+				<a href="Ai%20subcontent.html">Click here</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Diploma Study Material | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
